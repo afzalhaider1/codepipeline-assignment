@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+h1 {
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+  color: #666;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.linkedin-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 12px 24px; /* Adjust padding for a larger button */
+  background: url('linkedin-logo.png') no-repeat center center;
+  background-size: 24px 24px; /* Adjust to fit the image properly */
+  color: #fff;
+  text-align: center;
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
+  font-size: 16px; /* Adjust font size if text is added */
+}
+
+.linkedin-btn:hover {
+  background: rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+}
+
+.download-excel {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 6px 12px;
+  font-size: 0.8em;
+  color: #fff;
+  background: #e67e22;
+  text-decoration: none;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.download-excel:hover {
+  background: #d35400;
+  transform: scale(1.1);
+}
